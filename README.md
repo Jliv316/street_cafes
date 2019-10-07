@@ -43,6 +43,10 @@ end
 class Category < ApplicationRecord
 end
 ```
+
+#### Categories View Results
+![Categories View Results](categories_view.jpg)
+
 ### PostCodes View
 ```
 class CreatePostalCodesView < ActiveRecord::Migration[5.2]
@@ -72,7 +76,7 @@ end
 ```
 
 #### PostCode View Results
-![Image description](https://photos.google.com/search/_tra_/photo/AF1QipOjCEUsyhRQodYpKnRO36aUHeMSnBRF3FWiZ1Xq)
+![Post Code View Results](post_codes_view.jpg)
 
 ## Tasks
 There are three rake tasks under the restaurant namespace:
@@ -102,5 +106,3 @@ end
 ```
 
 Each can be run by simply running `rake restaurants:categorize` etc.
-
-
