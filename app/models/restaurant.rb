@@ -18,7 +18,7 @@ class Restaurant < ApplicationRecord
   end
 
   def self.find_all_ls2_large
-    where("postal_code like ?", "%LS2 %").where("number_of_chairs > #{median}")
+    where("postal_code like ?", "%LS2 %").where("number_of_chairs >= #{median}")
   end
 
   def self.find_all_ls2
