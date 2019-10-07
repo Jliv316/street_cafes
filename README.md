@@ -45,7 +45,7 @@ end
 ```
 
 #### Categories View Results
-![Categories View Results](categories_view.jpg)
+![Categories View Results](/app/assets/images/categories_view.jpg)
 
 ### PostCodes View
 ```
