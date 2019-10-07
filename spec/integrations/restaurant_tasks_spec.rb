@@ -39,7 +39,6 @@ describe 'rake task restaurants:export_small_restaurants' do
     Rake::Task['restaurants:categorize'].invoke
 
     Rake::Task['restaurants:export_small_restaurants'].invoke
-    Rake::Task['restaurants:concat_category_to_name'].invoke
 
     expect(Restaurant.find_by(id: ls1_small.id)).to eq(nil)
     expect(Restaurant.find(ls1_medium.id).category).to eq("ls1 medium")
