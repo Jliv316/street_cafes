@@ -9,6 +9,7 @@ In order to run street cafes app, you need to have the following installed:
 ## Build/Setup
 ``` bundle install ```
 ``` rake db:{drop,create,migrate,seed} ```
+``` rake restaurants:categorize ``` to populate restaurant.category column
 
 ## SQL Views
 There are two sql (db) views:
@@ -45,7 +46,7 @@ end
 ```
 
 #### Categories View Results
-![Categories View Results](categories_view.jpg)
+![Categories View Results](/app/assets/images/categories_view.jpg)
 
 ### PostCodes View
 ```
@@ -76,7 +77,7 @@ end
 ```
 
 #### PostCode View Results
-![Post Code View Results](post_codes_view.jpg)
+![Post Code View Results](/app/assets/images/post_codes_view.jpg)
 
 ## Tasks
 There are three rake tasks under the restaurant namespace:
