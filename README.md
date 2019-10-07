@@ -9,6 +9,7 @@ In order to run street cafes app, you need to have the following installed:
 ## Build/Setup
 ``` bundle install ```
 ``` rake db:{drop,create,migrate,seed} ```
+``` rake restaurants:categorize ``` to populate restaurant.category column
 
 ## SQL Views
 There are two sql (db) views:
