@@ -71,6 +71,9 @@ class PostCode < ApplicationRecord
 end
 ```
 
+#### PostCode View Results
+![Image description](https://photos.google.com/search/_tra_/photo/AF1QipOc9L3KHOa3-FcoBvdByrR-RSko0Jzgx9WYKDpI)
+
 ## Tasks
 There are three rake tasks under the restaurant namespace:
 ```
