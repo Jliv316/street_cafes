@@ -38,6 +38,11 @@ class CreatePostalCodesView < ActiveRecord::Migration[5.2]
   end
 end
 ```
+#### Category Model
+```
+class Category < ApplicationRecord
+end
+```
 ### PostCodes View
 ```
 class CreatePostalCodesView < ActiveRecord::Migration[5.2]
@@ -59,6 +64,11 @@ class CreatePostalCodesView < ActiveRecord::Migration[5.2]
   end
 end
 
+```
+#### PostCode Model
+```
+class PostCode < ApplicationRecord
+end
 ```
 
 ## Tasks
