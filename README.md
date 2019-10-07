@@ -76,7 +76,7 @@ end
 ```
 
 #### PostCode View Results
-![Post Code View Results](post_codes_view.jpg)
+![Post Code View Results](/app/assets/images/post_codes_view.jpg)
 
 ## Tasks
 There are three rake tasks under the restaurant namespace:
