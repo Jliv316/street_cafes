@@ -11,6 +11,10 @@ In order to run street cafes app, you need to have the following installed:
 ``` rake db:{drop,create,migrate,seed} ```
 ``` rake restaurants:categorize ``` to populate restaurant.category column
 
+## Tests
+The test suite can be run with `rspec` 
+The suite includes testing for restaurant model and task testing of restaurants.rake
+
 ## SQL Views
 There are two sql (db) views:
   1) post_codes view
